@@ -2,10 +2,13 @@ fun main(args: Array<String>) {
     print("Enter grade scored")
     var marks:Int= readLine()!!.toInt()
 
-    if (marks==90-100){
+        if (marks==100){
         print("A Has a present")
     }
-    else if (marks==80-89){
+    if (marks==90){
+        print("A good")
+    }
+    else if (marks==80){
         print("A- Congratulations")
     }
     else if (marks==70){
